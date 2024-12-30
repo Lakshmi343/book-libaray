@@ -1,0 +1,64 @@
+/* AdminSignup.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("/frotend/client/src/assets/old-books-wooden-table-library-vintage-style-ai-generated-content-design-background-instagram-facebook-wall-323974717.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.signin-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-card {
+  background: #fff;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+}
+
+.signin-header h2 {
+  margin-bottom: 20px;
+  color: #FF6600; /* Customize as per design */
+}
+
+.signin-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.signin-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.signin-form .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.signin-form .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #FF6600;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-form .btn:hover {
+  background-color: #e65500;
+}
